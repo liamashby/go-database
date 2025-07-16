@@ -11,8 +11,8 @@ The aim of this project is two-fold:
 
 2. A way to query that data on disk using a cli
 
-
 (Eventual) components:
 
-1. Optimising storage by adding indexes
+1. Optimising storage by adding indexesk
 2. Create an API layer
+3. Measure the performance of the database
