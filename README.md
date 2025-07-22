@@ -13,6 +13,6 @@ The aim of this project is two-fold:
 
 (Eventual) components:
 
-1. Optimising storage by adding indexesk
+1. Optimising storage by adding indexing
 2. Create an API layer
 3. Measure the performance of the database
