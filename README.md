@@ -1,6 +1,6 @@
 The aim of this project is two-fold:
 
-1. Build from scratch the basic functionality of a database. Heavily inspired by [link]()
+1. Build from scratch the basic functionality of a database. Heavily inspired by [link](https://github.com/codecrafters-io/build-your-own-x)
 2. Become more familiar with go, go testing, go standard library etc.
 
 (Initial) components:

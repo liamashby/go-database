@@ -1,6 +1,8 @@
 package cmd
 
 import (
+	"fmt"
+
 	"github.com/spf13/cobra"
 )
 
@@ -9,10 +11,10 @@ var retrieveCmd = &cobra.Command{
 	Short: "retrieve data",
 	Long:  `retrieve all of the data that was written to disk`,
 	Run: func(cmd *cobra.Command, args []string) {
-		testmodule.retrieve()
+		fmt.Println("hello")
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(versionCmd)
+	rootCmd.AddCommand(retrieveCmd)
 }
