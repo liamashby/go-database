@@ -29,3 +29,4 @@ Useful links:
 Project layouts:
 - https://go.dev/doc/modules/layout
 - https://github.com/golang-standards/project-layout 
+- https://refactoring.guru/design-patterns (can I try and incoprorate some of these design patterns into the project)

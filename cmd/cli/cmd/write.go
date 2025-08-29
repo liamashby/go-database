@@ -21,7 +21,12 @@ func runWrite(cmd *cobra.Command, args []string) {
 		fmt.Println(err)
 		return
 	}
-	file.WriteString("test")
+
+	for _, x := range args {
+		file.WriteString(x)
+		file.WriteString("\n")
+	}
+
 }
 
 var writeCmd = &cobra.Command{
