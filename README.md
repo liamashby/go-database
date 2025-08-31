@@ -1,6 +1,6 @@
 The aim of this project is two-fold:
 
-1. Build from scratch the basic functionality of a database. Heavily inspired by [link]()
+1. Build from scratch the basic functionality of a database. Heavily inspired by [link](https://github.com/codecrafters-io/build-your-own-x)
 2. Become more familiar with go, go testing, go standard library etc.
 
 (Initial) components:
@@ -30,3 +30,7 @@ Project layouts:
 - https://go.dev/doc/modules/layout
 - https://github.com/golang-standards/project-layout 
 - https://refactoring.guru/design-patterns (can I try and incoprorate some of these design patterns into the project)
+
+
+How to store data
+- 
