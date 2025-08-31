@@ -16,7 +16,7 @@ The aim of this project is two-fold:
 1. Optimising storage by adding indexing
 2. Create an API layer
 3. Measure the performance of the database
-
+4. Creating a front end UI 
 
 Notes:
 - Anything in same package is accessible, no need to import
@@ -32,5 +32,6 @@ Project layouts:
 - https://refactoring.guru/design-patterns (can I try and incoprorate some of these design patterns into the project)
 
 
-How to store data
-- 
+How do databases work?
+- https://cstack.github.io/db_tutorial/ 
+- https://build-your-own.org/database/

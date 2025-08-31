@@ -1,6 +1,6 @@
 package main
 
-import "database/cmd/cli/cmd"
+import cmd "database/cmd"
 
 func main() {
 	cmd.Execute()
