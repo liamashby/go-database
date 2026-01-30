@@ -23,7 +23,53 @@ Notes:
 - No need to modify go mod or go init for importing a package, just import, and ensure it is upper case
 - What should be the entrypoint of this application, should it be the cli main.go, or should the cli live separately? What is the basic (and easiest) folder structure to start with?
 
+Folder structure:
 
+```
+go-database/
+├── cli/
+│   ├── cmd/
+│   │   ├── retrieve.go
+│   │   ├── root.go
+│   │   ├── version.go
+│   │   └── write.go
+│   ├── data/
+│   │   └── text.txt
+│   ├── go.mod
+│   ├── go.sum
+│   ├── main.go
+│   └── Makefile
+├── ui/
+│   └── README.md
+├── .gitignore
+└── README.md
+```
+
+Using the CLI:
+
+Navigate to the cli folder:
+
+```
+cd .\cli
+```
+
+Specify the command you want to use:
+
+```
+go run main.go [verion][write][retrieve]
+```
+
+Importing the go package:
+
+```
+go install
+```
+
+```
+database version
+database write
+...
+```
 Useful links:
 
 Project layouts:
