@@ -18,7 +18,7 @@ The aim of this project is two-fold:
 3. Measure the performance of the database
 4. Creating a front end UI 
 
-Notes:
+Notes
 - Anything in same package is accessible, no need to import
 - No need to modify go mod or go init for importing a package, just import, and ensure it is upper case
 - What should be the entrypoint of this application, should it be the cli main.go, or should the cli live separately? What is the basic (and easiest) folder structure to start with?
@@ -70,6 +70,12 @@ database version
 database write
 ...
 ```
+
+Storing data in a B-tree
+- multi level index, to increase retrieval speed, a one level index works on small datasets, but what about when row size gets very large?
+
+
+
 Useful links:
 
 Project layouts:
@@ -81,3 +87,8 @@ Project layouts:
 How do databases work?
 - https://cstack.github.io/db_tutorial/ 
 - https://build-your-own.org/database/
+
+B-tree explainers
+- https://www.youtube.com/watch?v=K1a2Bk8NrYQ
+- https://www.youtube.com/watch?v=aZjYr87r1b8
+- https://www.youtube.com/watch?v=09E-tVAUqQw

@@ -15,6 +15,10 @@ var retrieveCmd = &cobra.Command{
 	},
 }
 
+func read_index() {
+
+}
+
 func init() {
 	rootCmd.AddCommand(retrieveCmd)
 }
