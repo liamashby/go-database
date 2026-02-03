@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"slices"
 
 	"github.com/spf13/cobra"
 )
@@ -32,6 +33,16 @@ func read_index() {
 	byteValue, _ := io.ReadAll(jsonFile)
 	var mappings []Mapping
 	json.Unmarshal(byteValue, &mappings)
+}
+
+func filter_index(mappings []Mapping, indicies []string) []Mapping {
+	var filtered_index []Mapping
+	for i := 0; i < len(mappings); i++ {
+		if slices.Contains(indicies, mappings[i].ID) {
+			filtered_index = append(filtered_index, mappings[i])
+		}
+	}
+	return filtered_index
 }
 
 func init() {
